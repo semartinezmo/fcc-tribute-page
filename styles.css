@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: sans-serif;
+    background-color: #f5f6f7;
+}
+
+header {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: #0476c0;
+    color: #ffffff;
+    border-bottom: 2rem ridge rgb(19, 103, 177); 
+}
+
+#tribute-info {
+  text-align: center;
+}
+
+.Aires-Fotos {
+    margin: 20px auto;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    padding: 20px 10px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    flex: 1 1 calc(50% - 40px); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+figure:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.Aires-Fotos img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .Aires-Fotos img:hover {
+    transform: scale(1)
+}
+  
+figcaption {
+    color: #333;
+    font-size: 14px;
+    font-family:  sans-serif;
+    background-color: #f5f6f7;
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.Aires-Historia {
+    background-color: #0476c0;
+    border-radius: 15px;
+    color: #dce21c;
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.Aires-Historia .timeline-item, .Aires-Historia h2 {
+    padding-left: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+.Aires-Historia .timeline-item p {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.timeline-item p {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.4;
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+
+footer {
+    background-color: 
+    #dce21c; 
+    color: #0476c0; 
+    text-align: center; 
+    padding: 20px; 
+    border-top: 2px solid #ffffff;
+    font-family: sans-serif; 
+    font-weight: bold;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #000000; 
+    text-decoration:none; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
+
+footer span {
+    display: block; 
+    margin-top: 10px; 
+}
